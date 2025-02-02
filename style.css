@@ -1,0 +1,57 @@
+
+
+body{
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+}
+
+.choice{
+    margin-bottom: 30px;
+
+}
+
+.choice button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    border-radius: 250px;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choice button:hover{
+    background-color: hsl(200, 100%, 70%);
+}
+
+#display, #comp{
+    font-size: 2.5rem;
+
+}
+
+#result{
+    font-size: 5rem;
+    margin: 30px 0;
+}
+
+.green, #playerspan{
+    color: lime;
+}
+
+.red,#compspan{
+    color: tomato;
+}
+
+.pscore{
+    font-size: 2rem;
+
+}
