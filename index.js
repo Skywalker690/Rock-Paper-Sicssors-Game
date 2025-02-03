@@ -1,5 +1,5 @@
 
-
+//
 
 const choice =["rock","paper","scissors"];
 
